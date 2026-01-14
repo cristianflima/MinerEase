@@ -1,4 +1,5 @@
 using System.Diagnostics;
+// Autor: Eden Lima
 
 namespace MinerEase.Core.Miner;
 
