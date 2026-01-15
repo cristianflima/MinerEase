@@ -1,23 +1,32 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using MinerEase.Core.Miner;
 
-namespace MinerEase.UI;
-
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
-public partial class MainWindow : Window
+namespace MinerEase.UI
 {
-    public MainWindow()
+    public partial class MainWindow : Window
     {
-        InitializeComponent();
+        private readonly IMinerService _minerService;
+
+        public MainWindow()
+        {
+            InitializeComponent();
+            _minerService = new XmrigMinerService();
+        }
+
+        private void StartStopButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (_minerService.IsRunning)
+            {
+                _minerService.Stop();
+                StatusText.Text = "Status: Parado";
+                StartStopButton.Content = "Iniciar Mineração";
+            }
+            else
+            {
+                _minerService.Start();
+                StatusText.Text = "Status: Minerando";
+                StartStopButton.Content = "Parar Mineração";
+            }
+        }
     }
 }

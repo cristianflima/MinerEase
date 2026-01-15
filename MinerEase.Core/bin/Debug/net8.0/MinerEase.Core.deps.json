@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MinerEase.Core/1.0.0": {
+        "runtime": {
+          "MinerEase.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MinerEase.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

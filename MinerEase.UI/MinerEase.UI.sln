@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11408.102 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinerEase.UI", "MinerEase.UI.csproj", "{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinerEase.Core", "..\MinerEase.Core\MinerEase.Core.csproj", "{F9F8F944-A0C5-A521-C8EF-41261D5E71CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F8F944-A0C5-A521-C8EF-41261D5E71CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F8F944-A0C5-A521-C8EF-41261D5E71CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F8F944-A0C5-A521-C8EF-41261D5E71CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F8F944-A0C5-A521-C8EF-41261D5E71CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8183912F-561E-43A8-836E-04FCEF4F10D2}
+	EndGlobalSection
+EndGlobal
