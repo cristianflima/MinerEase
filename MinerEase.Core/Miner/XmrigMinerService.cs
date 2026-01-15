@@ -1,35 +1,45 @@
 using System.Diagnostics;
-// Autor: Eden Lima
 
-namespace MinerEase.Core.Miner;
-
-public class XmrigMinerService : IMinerService
+namespace MinerEase.Core.Miner
 {
-    private Process? _process;
-
-    public bool IsRunning => _process != null && !_process.HasExited;
-
-    public void Start()
+    public class XmrigMinerService : IMinerService
     {
-        if (IsRunning) return;
+        private Process? _process;
+        private string? _xmrigPath;
 
-        var startInfo = new ProcessStartInfo
+        public bool IsRunning => _process != null && !_process.HasExited;
+
+        public void Initialize()
         {
-            FileName = "xmrig",
-            Arguments = "--version",
-            UseShellExecute = false,
-            RedirectStandardOutput = true,
-            RedirectStandardError = true,
-            CreateNoWindow = true
-        };
+            _xmrigPath = XmrigExtractor.EnsureXmrigExtracted();
+        }
 
-        _process = Process.Start(startInfo);
-    }
+        public void Start()
+        {
+            if (_xmrigPath == null)
+                throw new InvalidOperationException("Minerador não inicializado.");
 
-    public void Stop()
-    {
-        if (!IsRunning) return;
-        _process!.Kill();
-        _process = null;
+            if (IsRunning)
+                return;
+
+            var startInfo = new ProcessStartInfo
+            {
+                FileName = _xmrigPath,
+                Arguments = "--help",
+                UseShellExecute = false,
+                CreateNoWindow = true
+            };
+
+            _process = Process.Start(startInfo);
+        }
+
+        public void Stop()
+        {
+            if (IsRunning)
+            {
+                _process!.Kill(true);
+                _process = null;
+            }
+        }
     }
 }

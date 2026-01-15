@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinerEase.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+901a47d06d672972f3397788b7fec3ef359da86a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+622e343949fb58889fe99a40b6dd6f52342191a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinerEase.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinerEase.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

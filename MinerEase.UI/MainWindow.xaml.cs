@@ -10,7 +10,11 @@ namespace MinerEase.UI
         public MainWindow()
         {
             InitializeComponent();
+
             _minerService = new XmrigMinerService();
+
+            //  PASSO 3: inicializa o serviço (extrai o xmrig se necessário)
+            _minerService.Initialize();
         }
 
         private void StartStopButton_Click(object sender, RoutedEventArgs e)
