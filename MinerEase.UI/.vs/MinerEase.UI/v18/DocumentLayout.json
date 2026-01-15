@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}|MinerEase.UI.csproj|c:\\users\\admin\\desktop\\dev\\minerease\\minerease.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}|MinerEase.UI.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}|MinerEase.UI.csproj|c:\\users\\admin\\desktop\\dev\\minerease\\minerease.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}|MinerEase.UI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9F8F944-A0C5-A521-C8EF-41261D5E71CD}|..\\MinerEase.Core\\MinerEase.Core.csproj|c:\\users\\admin\\desktop\\dev\\minerease\\minerease.core\\miner\\xmrigminerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -10,10 +18,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9F8F944-A0C5-A521-C8EF-41261D5E71CD}|..\\MinerEase.Core\\MinerEase.Core.csproj|c:\\users\\admin\\desktop\\dev\\minerease\\minerease.core\\miner\\minerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}|MinerEase.UI.csproj|c:\\users\\admin\\desktop\\dev\\minerease\\minerease.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A3E74C2-93AB-535C-5EF6-B5BB490E3569}|MinerEase.UI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9F8F944-A0C5-A521-C8EF-41261D5E71CD}|..\\MinerEase.Core\\MinerEase.Core.csproj|c:\\users\\admin\\desktop\\dev\\minerease\\minerease.core\\miner\\iminerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -32,11 +36,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.UI\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-15T18:25:45.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "XmrigArgumentBuilder.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.Core\\Miner\\XmrigArgumentBuilder.cs",
               "RelativeDocumentMoniker": "..\\MinerEase.Core\\Miner\\XmrigArgumentBuilder.cs",
@@ -44,12 +60,11 @@
               "RelativeToolTip": "..\\MinerEase.Core\\Miner\\XmrigArgumentBuilder.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAuwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:14:52.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T12:14:52.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MinerConfig.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.Core\\Miner\\MinerConfig.cs",
               "RelativeDocumentMoniker": "..\\MinerEase.Core\\Miner\\MinerConfig.cs",
@@ -57,12 +72,11 @@
               "RelativeToolTip": "..\\MinerEase.Core\\Miner\\MinerConfig.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:11:12.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T12:11:12.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IMinerService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.Core\\Miner\\IMinerService.cs",
               "RelativeDocumentMoniker": "..\\MinerEase.Core\\Miner\\IMinerService.cs",
@@ -74,33 +88,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.UI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.UI\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T09:33:24.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "XmrigMinerService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.Core\\Miner\\XmrigMinerService.cs",
               "RelativeDocumentMoniker": "..\\MinerEase.Core\\Miner\\XmrigMinerService.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.Core\\Miner\\XmrigMinerService.cs",
               "RelativeToolTip": "..\\MinerEase.Core\\Miner\\XmrigMinerService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABMAAAB9AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T09:56:34.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "XmrigExtractor.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.Core\\Miner\\XmrigExtractor.cs",
               "RelativeDocumentMoniker": "..\\MinerEase.Core\\Miner\\XmrigExtractor.cs",
@@ -112,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MinerEase.Core.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\dev\\MinerEase\\MinerEase.Core\\MinerEase.Core.csproj",
               "RelativeDocumentMoniker": "..\\MinerEase.Core\\MinerEase.Core.csproj",

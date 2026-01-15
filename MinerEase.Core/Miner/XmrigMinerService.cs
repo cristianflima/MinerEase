@@ -37,8 +37,8 @@ namespace MinerEase.Core.Miner
             {
                 FileName = _xmrigPath,
                 Arguments = args,
-                UseShellExecute = false,
-                CreateNoWindow = true
+                UseShellExecute = false, //alterado de false para true para pegar o problema na execucao xmrig
+                CreateNoWindow = true //alterado de true para false para pegar o problema na execucao xmrig
             };
 
             _process = Process.Start(startInfo);

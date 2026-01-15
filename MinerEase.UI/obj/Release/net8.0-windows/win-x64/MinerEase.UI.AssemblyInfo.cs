@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinerEase.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26f04bbdbf6e37776a6ed95aa8a1f7d73cf08f1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74edf547da34467b32ed781eb18b22cbf648265f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinerEase.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinerEase.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
