@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\bin\Release\net8.0\MinerEase.Core.deps.json
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\bin\Release\net8.0\MinerEase.Core.dll
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\bin\Release\net8.0\MinerEase.Core.pdb
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\obj\Release\net8.0\MinerEase.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\obj\Release\net8.0\MinerEase.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\obj\Release\net8.0\MinerEase.Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\obj\Release\net8.0\MinerEase.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\obj\Release\net8.0\MinerEase.Core.sourcelink.json
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\obj\Release\net8.0\MinerEase.Core.dll
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\obj\Release\net8.0\refint\MinerEase.Core.dll
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\obj\Release\net8.0\MinerEase.Core.pdb
+C:\Users\Admin\Desktop\dev\MinerEase\MinerEase.Core\obj\Release\net8.0\ref\MinerEase.Core.dll

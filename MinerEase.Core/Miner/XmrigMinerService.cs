@@ -6,26 +6,37 @@ namespace MinerEase.Core.Miner
     {
         private Process? _process;
         private string? _xmrigPath;
+        private MinerConfig? _config;
 
         public bool IsRunning => _process != null && !_process.HasExited;
 
         public void Initialize()
         {
             _xmrigPath = XmrigExtractor.EnsureXmrigExtracted();
+
+            //  Configuração inicial (temporária)
+            _config = new MinerConfig
+            {
+                UserWallet = "49DpRjNErnyMdHxczMX4nLG3redJL2hhb5qTXi6WpR3qbANEVPuBFdEMdoH6cAKepaMvJJ77huB41VzYezkBqojDAqiGUqK",
+                DonationWallet = "46UPXFzCPUnRh7Si3dprTTNYbrURU1daKhfxEsQFzTmv9AbAoVRG3CiCJZQLGKg6FrPEvHfGBThGqgAoqVyNEttsEK8f4Lo",
+                DonationPercentage = 2
+            };
         }
 
         public void Start()
         {
-            if (_xmrigPath == null)
+            if (_xmrigPath == null || _config == null)
                 throw new InvalidOperationException("Minerador não inicializado.");
 
             if (IsRunning)
                 return;
 
+            var args = XmrigArgumentBuilder.Build(_config);
+
             var startInfo = new ProcessStartInfo
             {
                 FileName = _xmrigPath,
-                Arguments = "--help",
+                Arguments = args,
                 UseShellExecute = false,
                 CreateNoWindow = true
             };
